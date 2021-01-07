@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" 
+				href="frontend/libraries/bootstrap/css/bootstrap.css">
+				<link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+				<link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">    
+       <link rel="stylesheet" href="frontend/styles/main.css">
+        
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+							<a href="index.html" class="navbar-brand">
+								 <img src="frontend/images/logo.png" alt="">
+							</a>
+						</div>
+						<ul class="navbar-nav mr-auto d-none d-lg-block">
+							<li>
+								<span class="text-muted">
+									| &nbsp; Beyond The Explorer of the World
+								</span>
+							</li>
+						</ul>
+        </nav>
+    </div>
+
+    <main>
+			<section class="section-details-header"></section>
+				<section class="section-details-content">
+					<div class="container">
+						<div class="row">
+							<div class="col p-0">
+								<nav>
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item">
+											Paket Travel
+										</li>
+										<li class="breadcrumb-item">
+											Details
+										</li>
+										<li class="breadcrumb-item active">
+											Checkout
+										</li>
+									</ol>
+								</nav>		
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-8 pl-lg-0">
+								<div class="card card-details">
+									<h1>Who's Going</h1>
+									<p>
+										Trip To Penida, Bali, Indonesia
+									</p>
+									<div class="attendee">
+										<table class="table table-responsive-sm text-center">
+											<thead>
+												<tr>
+													<td>Foto</td>
+													<td>Nama</td>
+													<td>Negara</td>
+													<td>VISA</td>
+													<td>passport</td>
+													<td></td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>
+														<img src="frontend/images/testimonial-1.jpg" height="60">
+													</td>
+													<td class="align-middle">
+														Hendi Dinata
+													</td>
+													<td class="align-middle">
+														CN
+													</td>
+													<td class="align-middle">
+														N/A
+													</td>
+													<td class="align-middle">
+														Aktif
+													</td>
+													<td class="align-middle">
+														<a href="#">
+														<img src="frontend/images/remove-line.png" height="20">
+														</a>
+													</td>
+
+												</tr>
+												<tr>
+													<td>
+														<img src="frontend/images/testimonial-2.jpg" height="60">
+													</td>
+													<td class="align-middle">
+														John Aris
+													</td>
+													<td class="align-middle">
+														SG
+													</td>
+													<td class="align-middle">
+														30 Day
+													</td>
+													<td class="align-middle">
+														Aktif
+													</td>
+													<td class="align-middle">
+														<a href="#">
+														<img src="frontend/images/remove-line.png" height="20">
+														</a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="member mt-3">
+										<h2>Tambah Member</h2>
+										<form class="form-inline">
+											<label for="inputusername" class="sr-only">Nama</label>
+											<input type="text" name="inputusername" class="form-control mb-2 mr-sm-2" 
+											id="inputusername" placeholder="Username">
+											
+											<label for="inputvisa" class="sr-only">Visa</label>
+											<select name="inputvisa" id="inputvisa" class="custom-select mb-2 mr-sm-2">
+												<option value="VISA" selected>VISA</option>
+												<option value="30 Day">30 Day</option>
+												<option value="N/A">N/A</option>
+											</select>
+										
+												<label for="doepassport" class="sr-only">DOE Passport</label>
+												<div class="input-group mb-2 mr-sm-2">
+													<input type="text" class="form-control datepicker" id="doepassport" placeholder="DOE Passport">
+												</div>
+
+												<button type="submit" class="btn btn-add-now mb-2 px-4">
+													Tambah
+												</button>
+
+										</form>
+									</div>
+
+									<div class="Note mt-4 mb-0">
+										<h3>
+											Note
+										</h3>
+										<p class="notedetails mb-0">
+											Kamu Hanya Bisa Menambahkan Member yang Sudah Terdaftar Di Travelin
+										</p>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-lg-4">
+								<div class="card card-details card-right">
+									<h2>Informasi Cekout</h2>
+									<table class="trip-information">
+										<tr>
+											<th width="50%">Member</th>
+											<td width="50%" class="text-right">2 Orang</td>
+										</tr>
+										<tr>
+											<th width="50%">Penambahan VISA</th>
+											<td width="50%" class="text-right">Rp 2.000.000</td>
+										</tr>
+										<tr>
+											<th width="50%">Harga Perjalanan</th>
+											<td width="50%" class="text-right">Rp 1.000.000 <br>/ Orang</td>
+										</tr>
+										<tr>
+											<th width="50%">Total Harga</th>
+											<td width="50%" class="text-right">Rp 4.000.000</td>
+										</tr>
+										<tr>
+											<th width="50%">Total pembayaran (Kode Unik)</th>
+											<td width="50%" class="text-right">Rp 
+												<span class="text-blue">4.000</span>
+												<span class="text-orange">.333</span>
+											</td>
+										</tr>
+									</table>
+									<hr>
+									<h2>Intruksi Pembayaran</h2>
+									<table class="paid-information">
+										<tr>
+											<td width=50%>Mohon Selesaikan Pembayaran Anda Sebelum Melanjutkan Perjalanan</td>
+										</tr>
+									</table>
+
+									<table class="mt-4">
+										<tr>
+											<th allign="middle">
+												<img src="frontend/images/Card Atm.png" height="50">
+											</th>
+											<th allign="middle">
+												PT Travelin ID <br>
+												BCA  <br>
+												0829 0999 8390
+											</th>
+										</tr>
+									</table>
+
+									<table class="mt-4">
+										<tr>
+											<th allign="middle">
+												<img src="frontend/images/Card Atm.png" height="50">
+											</th>
+											<th allign="middle">
+												PT Travelin ID <br>
+												Bank Danamon <br>
+												0899 0865 0090
+											</th>
+										</tr>
+									</table>
+
+
+								</div>
+								<div class="join-container">
+									<a href="#" class="btn btn-block btn-join-now mt-3 my-2">
+										Bayar
+									</a>
+									<a href="#" class="mt-4 d-flex justify-content-center">
+										Batalkan
+									</a>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+    </main>
+
+
+    <!-- footer -->
+		<footer class="section-footer mt-4 mb-5 border-top">
+			<div class="container pt-5 pb-5">
+				<div class="row justify-content-center">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-12 col-lg-3">
+								<h5>FITUR</h5>
+								<ul class="list-unstyled">
+								<li><a href="#">Review</a></li>
+								<li><a href="#">Fitur</a></li>
+								<li><a href="#">Sosial Media</a></li>
+								<li><a href="#">Afiliasi</a></li>
+								</ul>
+							</div>
+
+							<div class="col-12 col-lg-3">
+								<h5>ACCOUNT</h5>
+								<ul class="list-unstyled">
+								<li><a href="#">Akun</a></li>
+								<li><a href="#">Pengaman</a></li>
+								<li><a href="#">Rewrad</a></li>
+								</ul>
+							</div>
+
+							<div class="col-12 col-lg-3">
+								<h5>COMPANY</h5>
+								<ul class="list-unstyled">
+								<li><a href="#">karir</a></li>
+								<li><a href="#">Bantuan</a></li>
+								<li><a href="#">Media</a></li>
+								</ul>
+							</div>
+
+							<div class="col-12 col-lg-3">
+								<h5>CONECTED</h5>
+								<ul class="list-unstyled">
+								<li><a href="#">Jakarta Selatan</a></li>
+								<li><a href="#">Indonesia</a></li>
+								<li><a href="#">0821 - 222 - 1123</a></li>
+								<li><a href="#">Support@travelin.com</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row border-top justify-content-center align-item-center pt-4">
+					<div class="col-auto text-gray-500 font-wight-light">
+						2020 Copy Right Travelin  - Made In Bandung
+					</div>
+				</div>
+			</div>
+		</footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+		<script src="frontend/libraries/retina/retina.min.js "></script>
+		<script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+		<script src="frontend/libraries/gijgo/js/gijgo.min.js"></script>
+		<script>
+      $(document).ready(function() {
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          Xoffset: 15
+				});
+				
+				$('.datepicker').datepicker({
+					uiLibrary: 'bootstrap4',
+					icons:{
+						rightIcon:'<img src="frontend/images/calender.png">'
+					}
+				})
+      });
+    </script>
+</body> 
+</html> 
+    
+
+
